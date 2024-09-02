@@ -1,0 +1,26 @@
+body { 
+    background-color: black; 
+    text-align: center;
+}
+
+.title { 
+    background-color: gray; 
+    margin: -10px; 
+    margin-top: -21.8px;
+}
+
+.wth {
+    color: white;
+}
+
+.column {
+    float: inline-start;
+    width: 30%;
+    margin: 10px;
+    border: solid; 
+    border-color: gray;
+}
+
+.subtitle {
+    background-color: gray; 
+}
