@@ -13,14 +13,66 @@ body {
     color: white;
 }
 
-.column {
+.tabs {
     float: inline-start;
     width: 30%;
-    margin: 10px;
-    border: solid; 
+    margin: 19px;
+    margin-top: 30px;
+    border: solid;
+    margin-bottom: 0px;
+    border: solid;
     border-color: gray;
 }
 
+.column {
+    float: inline-start;
+    width: 30%;
+    margin: 19px;
+    border: solid;
+    border-color: gray;
+    height: 450px;
+    overflow: auto;
+    margin-top: 0px;
+}
+
+.column::-webkit-scrollbar {
+    width: 10px;
+}
+
+.column::-webkit-scrollbar-thumb {
+    background: white;
+  }
+  
+.column::-webkit-scrollbar-track {
+    background: black;
+  }
+
 .subtitle {
     background-color: gray; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.prf {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    font-size: large;
+    block-size: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.trc {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    font-size: large;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+hr {
+    margin: 0px;
+    border-color: gray;
 }
