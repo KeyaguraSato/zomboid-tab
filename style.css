@@ -68,12 +68,26 @@ body {
     width: 100%;
     color: white;
     background-color: transparent;
+    text-align: left;
     font-size: large;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+.addt {
+    text-align: right; 
+    float: inline-end; 
+    color:rgb(118, 236, 0);
+}
+
+.rmvt {
+    text-align: right; 
+    float: inline-end; 
+    color:rgb(236, 0, 0);
 }
 
 hr {
     margin: 0px;
     border-color: gray;
 }
+
