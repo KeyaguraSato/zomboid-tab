@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomboid tab</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="coscript.py">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -80,7 +80,7 @@
         
         <!-- Div dos traços positivos -->
         <div class="column" style="height: 200px; margin-bottom: 50px;">
-            <button class="trc"><img src="images/Bom_de_volante.png" style="margin: -2px;"> Bom de volante text <span class="addt">-1</span> </button>
+            <button class="trc"><img src="images/Bom_de_volante.png" style="margin: -2px;"> Bom de volante <span class="addt">-1</span> </button>
             <hr>
             <button class="trc"><img src="images/Olhos_de_gato.png" style="margin: -2px;"> Olhos de gato <span class="addt">-2</span></button>
             <hr>
@@ -252,6 +252,6 @@
     </div>
 
     <!-- Area dos pontos -->
-    <h3 style="color: white; text-align: right; margin-right: 2.5%;">Pontos de traços: <span> 0 </span></h3>
+    <h3 style="color: white; text-align: right; margin-right: 2.5%;">Pontos de traços: <span id="ttp"> 0 </span></h3>
 </body>
 </html>
